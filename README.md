@@ -7,7 +7,7 @@
 
 # Getting Started with this Repository
 
-
+Download All required Python Packages as specified in the jupyter notebook. The Datafile is present in the root directory of this repository. With the required python packages this notebook should run as expected.
 
 # Overview and Business Problem
 
@@ -34,14 +34,9 @@ As can be seen via the confusion matrix below, the model performs significantly 
 
 <img width="652" alt="Screenshot 2023-06-12 at 4 57 09 PM" src="https://github.com/LucasFishbein/Positive_Tweet_Sentiment_CNN_Model/assets/117129342/508d0a40-eda4-4772-9b26-8fdfb2858707">
     
- precision    recall  f1-score   support
+ 
+<img width="492" alt="Screenshot 2023-06-12 at 4 57 28 PM" src="https://github.com/LucasFishbein/Positive_Tweet_Sentiment_CNN_Model/assets/117129342/bb4db100-7c9b-498a-99ba-35614aa70a2d">
 
-**Not Positive**   0.80      0.88      0.84       614
-**Positive**       0.65      0.51      0.57       278
-
-    accuracy                           0.76       892
-   macro avg       0.72      0.69      0.70       892
-weighted avg       0.75      0.76      0.75       892
     
 # Database Understanding
 
@@ -98,24 +93,18 @@ Model B is another sequential CNN but this model made use of an Embedding layer 
  <img width="652" alt="Screenshot 2023-06-12 at 4 57 09 PM" src="https://github.com/LucasFishbein/Positive_Tweet_Sentiment_CNN_Model/assets/117129342/508d0a40-eda4-4772-9b26-8fdfb2858707">
     
     
-
-                precision    recall  f1-score   support
-
-**Not Positive**   0.80      0.88      0.84       614
-**Positive**       0.65      0.51      0.57       278
-
-    accuracy                           0.76       892
-   macro avg       0.72      0.69      0.70       892
-weighted avg       0.75      0.76      0.75       892
+<img width="492" alt="Screenshot 2023-06-12 at 4 57 28 PM" src="https://github.com/LucasFishbein/Positive_Tweet_Sentiment_CNN_Model/assets/117129342/bb4db100-7c9b-498a-99ba-35614aa70a2d">
 
 
 
 # Conclusions and Practical Implementations
 
-A
+The Current model is able to determine the Sentiment of a tweet or string of text from the raw text alone, this provides a very wide number of practical uses. Once text strings are labeled by Sentiment a huge variety of text analyses can be completed such as exploring top used phrases with N-Grams or creating wordclouds annd other visualizations of the most common hashtags or words used.
+
+This Model acts a jumping off point the builds a labeled dataset from which a much deeper analysis of the information provided can be extracted.
 
 # For More Information
-See the full analysis in the [Jupyter Notebook]() 
+See the full analysis in the [Jupyter Notebook](https://github.com/LucasFishbein/Positive_Tweet_Sentiment_CNN_Model/blob/main/Positive%20Tweet%20Sentiment%20CNN%20Model.ipynb)
 
 For additional info, contact Lucas Fishbein at FishbeinLucas@gmail.com
 
@@ -124,8 +113,8 @@ For additional info, contact Lucas Fishbein at FishbeinLucas@gmail.com
 ```
 ├── .gitignore
 ├── CONTRIBUTING.md
-├── .ipynb
-├── data
+├── Positive_Tweet_Sentiment_CNN_Model.ipynb
+├── judge-1377884607_tweet_product_company.csv
 ├── LICENSE.md
 └── README.md
 ```
